@@ -1,0 +1,300 @@
+[33mcommit cad6d374ac2df64adfafeb5b0f5c4d50589c6bcc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Abdoul kowiyou BACHABI <Abdoubachabikowiyou@gmail.com>
+Date:   Tue Apr 9 11:56:23 2024 +0100
+
+    correction
+
+[33mcommit c04d99a6acbf0254e5e1dc4f74284ffec9521672[m
+Author: Abdoul Ninja <Abdoubachabikowiyou@gmail.com>
+Date:   Tue Apr 9 11:34:48 2024 +0100
+
+    avatar en border: yellow
+
+[33mcommit 87494452eeeca10dbbf57a18b28d93aacdca4756[m
+Author: Abdoul Ninja <Abdoubachabikowiyou@gmail.com>
+Date:   Tue Apr 9 11:11:54 2024 +0100
+
+    .env config smtp
+
+[33mcommit a556a2a7a4fdb4d020f9495b222d2bf505c8b1a2[m
+Author: Abdoul Ninja <Abdoubachabikowiyou@gmail.com>
+Date:   Mon Apr 8 11:26:08 2024 +0100
+
+    Fix emman bug
+
+[33mcommit a14b971341d0de56494fc6a65fed880355dbf274[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Fri Apr 5 12:26:00 2024 +0100
+
+    Show video details
+
+[33mcommit 2cf3a860afb50bc9d053518532740a187d74e6b8[m
+Author: Abdoul Ninja <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Apr 5 12:24:47 2024 +0100
+
+    fix correction
+
+[33mcommit e1293826672b81aab3d69a1506e79376aba094c9[m
+Author: Abdoul Ninja <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Apr 5 11:56:27 2024 +0100
+
+    Fix correction
+
+[33mcommit 72b16ec304afb59dce084ed6c49d17ac86bae7bf[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Tue Apr 2 11:00:03 2024 +0100
+
+    Fix accueil
+
+[33mcommit 501e0b83c14087119c48269ccbca0900e42c127a[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Mar 29 18:31:00 2024 +0100
+
+    séries page added
+
+[33mcommit 6e5fc42c85f384d161ca4051f6b6170a28beb6a1[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Mar 29 18:18:34 2024 +0100
+
+    catégorie page added
+
+[33mcommit 68621b2426a2edc7ba545e054db863eafd86b585[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Mar 29 16:45:27 2024 +0100
+
+    nouveaute page added
+
+[33mcommit 01231f8b9ad0098de2045f22f703764e3ec5c14f[m
+Merge: 3e29371 c89f9f4
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Mar 29 16:35:44 2024 +0100
+
+    Films page added
+
+[33mcommit 3e293715970096213a33a0bebbe5b9a1c8c84e1d[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Fri Mar 29 16:31:05 2024 +0100
+
+    Films page added
+
+[33mcommit c89f9f4e2aae6756232c64ce55f23619622b2b54[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Thu Mar 28 17:54:02 2024 +0100
+
+    movie description
+
+[33mcommit b966bacf6256f1a37d679161e50bc9e31f3e5979[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Thu Mar 28 15:19:52 2024 +0100
+
+    Fix header.blade.php
+
+[33mcommit e7b53f1b0e53f3bb2e11ae75fd48e25554703f80[m
+Merge: f2735fd 41be75d
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Wed Mar 27 18:41:54 2024 +0100
+
+    Fix conflits in App.blade.php
+
+[33mcommit f2735fd152513db1c651121370185065232372ed[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Wed Mar 27 18:38:32 2024 +0100
+
+    end home page
+
+[33mcommit 781a4005bc5308dd4f7e3dfaebb126cd56b8737f[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Wed Mar 27 18:29:14 2024 +0100
+
+    End home page
+
+[33mcommit 41be75d709c680907e87cbc4815ebb628187057d[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Wed Mar 27 18:02:17 2024 +0100
+
+    select Movie
+
+[33mcommit 6823d4d00db73e328786215873bd89e014fd4d66[m
+Author: Abdoul kowiyou <Abdoubachabikowiyou@gmail.com>
+Date:   Wed Mar 27 14:36:44 2024 +0100
+
+    section of category videos add in home pages
+
+[33mcommit 99ced3733d1a5610d5d777257bbfe2f5e3971ab8[m
+Merge: d09c8c1 cde37d2
+Author: abdoul kowiyou <abdoubachabikowiyoukowiyou@gmail.com>
+Date:   Mon Mar 25 18:23:09 2024 +0100
+
+    header backgroup fix typo
+
+[33mcommit d09c8c10d1af57d05a08976da9e7f29465c48eb2[m
+Author: abdoul kowiyou <abdoubachabikowiyoukowiyou@gmail.com>
+Date:   Mon Mar 25 17:14:28 2024 +0100
+
+    Header
+
+[33mcommit cde37d2988ee0945bf07322f04748e08da0ba780[m
+Author: abdoul kowiyou <abdoubachabikowiyoukowiyou@gmail.com>
+Date:   Mon Mar 25 17:14:28 2024 +0100
+
+    Header
+
+[33mcommit d49a915b76b1ae66fd30be45f267dbea9f857377[m
+Author: Emmanuel <EmmanuelNoel>
+Date:   Thu Mar 21 15:22:13 2024 +0100
+
+    first commit
+
+[33mcommit 154880269b733cc5be71fed78a9e212bdea62ee7[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Thu Dec 14 19:15:58 2023 +0600
+
+    feat: frontend/main.css css variable used
+
+[33mcommit 9cabb10bba76932b688ce5c368c45e1b971730b1[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Thu Dec 14 18:24:46 2023 +0600
+
+    feat: laravel-mix and related js update, works on node 20 now
+
+[33mcommit fe767c5f89434f69bcfea0e711217e0900b979df[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Thu Dec 14 16:19:34 2023 +0600
+
+    fix: sanctum config remove
+
+[33mcommit 9a6362615569c890124abed6a3b63038e17ea991[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Mon Oct 16 21:22:58 2023 +0600
+
+    update: github action php version to 8.0
+
+[33mcommit 78f1d5106de581a5ba509a6fc3e7bb666edaa91b[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sun Oct 1 12:55:45 2023 +0600
+
+    feat: telescope install and configure
+
+[33mcommit 3cfbabdb52332f6cbcc9e4fba69b9d14696826a7[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sun Oct 1 12:25:40 2023 +0600
+
+    chore: admin panel video list table column reduce
+
+[33mcommit 7e8338e183c8d05b5fe4c4afcfb9287c50ff0df0[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Sep 30 20:59:50 2023 +0600
+
+    feat: upload video by chunk and video like first time error fix
+
+[33mcommit 664e34ce47d2120be0e65ee3b7afc2ba8d7865ae[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Sep 30 17:39:15 2023 +0600
+
+    chore: admin panel pagination and paginate() parameter for admin panel controller update to default
+
+[33mcommit 4c1d0a47135601c9108c5bef9350090cb1725a9d[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Fri Sep 29 00:45:19 2023 +0600
+
+    update: GeneratedVideosTableSeeder
+
+[33mcommit 6c102176b372ddfbcf7303768285acc651eb9e42[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Thu Sep 28 15:04:31 2023 +0600
+
+    feat: use tmdb api for movie details
+
+[33mcommit e6fc200d58a455704ca824e28a0b54f79632720d[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Wed Sep 27 23:48:34 2023 +0600
+
+    chore: working
+
+[33mcommit a9bfa5184279b2e6b4277acd0219bf16324c7d24[m
+Merge: 9307941 cba39df
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat May 6 18:19:57 2023 +0600
+
+    Merge branch 'dev'
+
+[33mcommit cba39dfce1551a2756deaebc274ec1384a1d534f[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Nov 19 13:11:08 2022 +0600
+
+    feat: TrustProxies middleware update
+
+[33mcommit 9307941ad617e4c0f2c91c0dc75359a6f1ced46a[m
+Merge: b1b29e6 f6b5836
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Mon Apr 4 20:33:55 2022 +0600
+
+    Merge branch 'dev'
+
+[33mcommit f6b58368368d41b21e587f5083b0e4ee17a52600[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Mon Apr 4 20:33:36 2022 +0600
+
+    feat: production build
+
+[33mcommit b1b29e6ca7340de1ff3e9d2600040d5190d3cce9[m
+Merge: 44fd686 ef895c8
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Mon Apr 4 17:31:20 2022 +0600
+
+    Merge branch 'dev'
+
+[33mcommit ef895c80d6ce3b2b303865d5a5871c2f6b256bfc[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Mon Apr 4 16:26:43 2022 +0600
+
+    feat: GeneratedVideosTableSeeder added using iseed package
+
+[33mcommit 4c943910ff46e50f56a3f8226084428843b6ed76[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Feb 5 11:25:29 2022 +0600
+
+    feat: videojs cdn and skin used wip
+
+[33mcommit f96663b7a869ea4d3427876f7a22ebf8eff3740b[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Feb 5 10:27:52 2022 +0600
+
+    feat: video convert using ffmpeg and filesystem local wip
+
+[33mcommit 1a579770338ef676993b173b0b92add127ddae46[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Feb 5 10:27:08 2022 +0600
+
+    fix: cloudinary package installed
+
+[33mcommit 5f0c531423826106ef02672bf55726b25202627a[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Feb 5 00:36:20 2022 +0600
+
+    feat: job and queue workers added
+
+[33mcommit 777d8bf625ef7c8225c3ed5d58e834e265785c27[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Sat Feb 5 00:30:15 2022 +0600
+
+    feat: pbmedia/laravel-ffmpeg installed and configured
+
+[33mcommit 44fd6861dd543c03db75b627fc0ea78ed1583ce2[m
+Merge: 4b01219 768c31f
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Fri Jan 14 12:36:34 2022 +0600
+
+    Merge branch 'dev'
+
+[33mcommit 768c31fc6fc45db1e51bebcc2e5b783268fcd619[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Fri Jan 14 12:22:28 2022 +0600
+
+    fix: backend user.index view updated for last_login_at
+
+[33mcommit 03b296d82139047c7595e8bfbf391cb3d065bef0[m
+Author: itsrafsanjani <mdrafsanjanirafin@gmail.com>
+Date:   Fri Jan 14 12:07:12 2022 +0600
+
+    feat: public/index.php route absolute false

@@ -1,0 +1,259 @@
+/* _header.blade.php*/
+
+
+.header__nav-link {
+    font-family: "Agency FB";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    letter-spacing: 0.7px;
+}
+
+
+.mediaa h3 a {
+    color: #fff;
+}
+
+.header__search {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+}
+
+.header__search input::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+.header__search input:focus {
+    border: 2px solid var(--primary-color);
+}
+
+body {
+    background-color: #000 !important;
+    /* couleur bleu nuit  #1F263E*/
+}
+
+/*  video.show.blade page*/
+.md_descript {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.md_casting {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: black;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* accueil */
+
+.title {
+    font-family: "Inter" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+    .header__nav-link {
+        color: white;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .title {
+        font-size: 20px;
+    }
+    .header__nav-link {
+        color: #000 !important;
+    }
+}
+/* footer */
+
+/* show video details */
+.md_logo {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+.md_content_descript {
+    position: absolute;
+    left: 50px;
+    top: 420px;
+}
+
+.md_descript {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8) !important;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.md_time {
+    width: 59px;
+    height: 25px;
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.md_watch_text {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.md_header_footer {
+    display: flex;
+    margin-top: 50px !important;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#videoLikeDislikeForm {
+    display: flex;
+}
+.md_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.md_watch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 12px;
+    width: 231px;
+    background: #ffffff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    height: 45px;
+}
+
+.md_content_watch {
+    display: flex;
+    margin-top: -2%;
+    margin-left: 3%;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.md_lecture_playlist {
+    width: 205px;
+    height: 25px;
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.md_lecture {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    width: 269px;
+    height: 45px;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+}
+
+.md_content_download div {
+    width: 20px;
+}
+
+/* discover page */
+.content__tabs .nav-link.active {
+    width: 57px;
+    height: 24px;
+    /* font-family: 'Abel'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--primary-color);
+    width: 91px;
+    height: 33px;
+    left: -11px;
+    top: -4px;
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); */
+    /* border-radius: 19px; */
+}
+
+.content__tabs .nav-item {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #fff;
+    opacity: 1;
+}
+
+/* video sidebar page */
+.section__title {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}

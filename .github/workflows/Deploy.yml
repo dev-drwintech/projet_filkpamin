@@ -1,0 +1,89 @@
+name: CI Filmkpamin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout du code
+        uses: actions/checkout@v4
+
+      - name: 🐘 Installer PHP et les dépendances
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          extensions: mbstring, pdo, bcmath, ctype, json, tokenizer, xml, sodium
+          tools: composer:v2
+
+      - name: 📦 Installer les dépendances Composer
+        run: composer install --no-dev --optimize-autoloader --ignore-platform-req=ext-sodium
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build-test
+
+    steps:
+      - name: 📥 Checkout du code
+        uses: actions/checkout@v4
+
+      - name: 🚀 Déployer via SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_SECRETKEY }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+        run: |
+
+          # Configuration SSH
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          # Ajout des hôtes connus
+          ssh-keyscan -p 65002 -H $SERVER_IP >> ~/.ssh/known_hosts
+          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+          # Connexion et déploiement
+          ssh -p 65002 -i ~/.ssh/id_rsa $SERVER_USER@$SERVER_IP << 'EOF'
+            set -e  # Arrête le script si une commande échoue
+
+            # Chemin de déploiement
+            DEPLOY_PATH="/home/u680437347/domains/filmkpamin.com/public_html/TestFilmkpamin"
+            echo "Déploiement dans : $DEPLOY_PATH"
+            cd $DEPLOY_PATH
+
+            # Clonage ou mise à jour du dépôt
+            if [ ! -d ".git" ]; then
+              echo "Clonage du dépôt..."
+              git clone git@github.com:Ninja-htd/Filmkpamin-streaming.git .
+            else
+              echo "Dépôt déjà cloné, mise à jour..."
+              git reset --hard HEAD
+              git pull origin main
+            fi
+
+            # Utilisation de Composer2
+            if command -v composer2 &> /dev/null; then
+              COMPOSER_CMD="composer2"
+            else
+              COMPOSER_CMD="composer"
+            fi
+
+            composer2 install --no-dev --optimize-autoloader --ignore-platform-req=ext-sodium
+
+            # Commandes Laravel
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            php artisan queue:restart
+            php artisan storage:link
+            php artisan optimize
+
+            echo "Déploiement terminé avec succès 🚀"
+            exit
+          EOF
