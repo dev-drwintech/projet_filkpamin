@@ -49,9 +49,21 @@
                                 <i class="icon ion-ios-search"></i>
                             </button>
                         </li>
+                       
                     </ul>
                     <!-- end header nav -->
-
+                    <!-- Language Switcher (gTranslate) -->
+                        <li class="dropdown d-none d-lg-inline-block topbar-dropdown">
+                            <div class="gtranslate_wrapper" style="position: fixed; top: 30px; right: 20px; z-index: 9999;"></div>
+                            <script>
+                                window.gtranslateSettings = {
+                                    "default_language": "fr",
+                                    "switcher_horizontal_position": "inline",
+                                    "float_switcher_open_direction": "bottom"
+                                }
+                            </script>
+                            <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+                        </li>
                     <!-- header auth -->
                     @guest
                         <a href="{{ route('login') }}" class="header__sign-in">
