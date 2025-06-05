@@ -833,6 +833,7 @@ ul {
     .petit-format{
         display: block;
         position: relative;
+        margin: 0 auto !important;
     }
 }
 @media only  screen and (max-width: 768px){
@@ -6294,15 +6295,6 @@ h1:not(.questionnement, .hero-content h1, .title-avenir) {
         width: 250px;
     }
 
-    .gtranslate_wrapper {
-        position: fixed;
-        top: 10px;
-    }
-    .grand-format{
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-    }
 }
 
 /* Tendances section */

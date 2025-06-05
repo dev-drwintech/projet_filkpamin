@@ -34,7 +34,7 @@
 
                          <li class="dropdown petit-format  d-lg-inline-block topbar-dropdown">
                             <div class="gtranslate_wrapper"
-                                style="position: fixed; top: 71px; right: 20px; z-index: 9999;"></div>
+                                style=" z-index: 9999;"></div>
                         </li>
 
                         <li class="header__nav-item">

@@ -95,7 +95,7 @@ class VideoController extends Controller
 
                     if ($portefeuille) {
                         // créditer un montant au portefeuille
-                        $montantCredit = 25;  // Montant à définir
+                        $montantCredit = 25;  // Montant à définir fcfa
                         $portefeuille->solde += $montantCredit;
                         $portefeuille->save();
 
