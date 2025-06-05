@@ -826,6 +826,27 @@ ul {
     .header__search input {
         width: 100%;
     }
+    
+}
+
+@media (max-width: 768px){
+    .petit-format{
+        display: block;
+        position: relative;
+    }
+}
+@media only  screen and (max-width: 768px){
+    .petit-format{
+        display: block;
+    }
+}
+@media (min-width: 768px){
+    .grand-format{
+        display: block;
+    }
+    .petit-format{
+        display: none  !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -6096,7 +6117,7 @@ h2:not(.newsletter h2, .plan h2, .titre-section, .tendances h2) {
     background: #1d1d1d;
 }
 
-h1:not(.questionnement, .hero-content h1,.title-avenir) {
+h1:not(.questionnement, .hero-content h1, .title-avenir) {
     font-size: 2.5em;
     color: #fff;
     margin-bottom: 20px;
@@ -6261,7 +6282,7 @@ h1:not(.questionnement, .hero-content h1,.title-avenir) {
         max-width: 350px;
         margin-bottom: 30px;
     }
-    h1:not(.questionnement, .hero-content h1,.title-avenir) {
+    h1:not(.questionnement, .hero-content h1, .title-avenir) {
         font-size: 2.5em;
         color: #fff;
         margin-bottom: 20px;
@@ -6271,6 +6292,16 @@ h1:not(.questionnement, .hero-content h1,.title-avenir) {
         left: -10px;
         font-size: 23px;
         width: 250px;
+    }
+
+    .gtranslate_wrapper {
+        position: fixed;
+        top: 10px;
+    }
+    .grand-format{
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
     }
 }
 

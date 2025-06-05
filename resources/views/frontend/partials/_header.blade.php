@@ -32,6 +32,11 @@
                             <a href="{{ route('about') }}" class="header__nav-link">À propos</a>
                         </li>
 
+                         <li class="dropdown petit-format  d-lg-inline-block topbar-dropdown">
+                            <div class="gtranslate_wrapper"
+                                style="position: fixed; top: 71px; right: 20px; z-index: 9999;"></div>
+                        </li>
+
                         <li class="header__nav-item">
                             <form action="{{ route('search.index') }}" class="header__search">
                                 <input class="header__search-input" type="text" name="q"
@@ -49,21 +54,11 @@
                                 <i class="icon ion-ios-search"></i>
                             </button>
                         </li>
-                       
+
                     </ul>
                     <!-- end header nav -->
                     <!-- Language Switcher (gTranslate) -->
-                        <li class="dropdown d-none d-lg-inline-block topbar-dropdown">
-                            <div class="gtranslate_wrapper" style="position: fixed; top: 30px; right: 20px; z-index: 9999;"></div>
-                            <script>
-                                window.gtranslateSettings = {
-                                    "default_language": "fr",
-                                    "switcher_horizontal_position": "inline",
-                                    "float_switcher_open_direction": "bottom"
-                                }
-                            </script>
-                            <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
-                        </li>
+
                     <!-- header auth -->
                     @guest
                         <a href="{{ route('login') }}" class="header__sign-in">
@@ -121,6 +116,19 @@
                             </div>
                             <!-- end header auth -->
                         @endguest
+
+                            <li class="dropdown d-none grand-format d-lg-inline-block topbar-dropdown">
+                                <div class="gtranslate_wrapper"
+                                    style="position: fixed; top: 71px; right: 20px; z-index: 9999;"></div>
+                                <script>
+                                    window.gtranslateSettings = {
+                                        "default_language": "fr",
+                                        "switcher_horizontal_position": "inline",
+                                        "float_switcher_open_direction": "bottom"
+                                    }
+                                </script>
+                                <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+                            </li>
                         <!-- header menu btn -->
                         <button class="header__btn" type="button">
                             <span></span>
